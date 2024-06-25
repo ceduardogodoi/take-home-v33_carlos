@@ -1,0 +1,116 @@
+.join-button {
+  background-color: green;
+  color: white;
+  margin: 10px;
+}
+
+.join-button:disabled {
+  background-color: grey;
+  color: white;
+  margin: 10px;
+}
+
+.leave-button {
+  background-color: red;
+  color: white;
+  margin: 10px;
+}
+
+.leave-button:disabled {
+  background-color: grey;
+  color: white;
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+.community-leaderboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-leaderboard__heading {
+  margin: unset;
+  text-align: start;
+}
+
+.community-leaderboard-labels-container {
+  display: grid;
+  gap: 64px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.community-leaderboard-labels {
+  align-items: center;
+  display: flex;
+  margin-block-end: 12px;
+  margin-block-start: 24px;
+}
+
+.community-leaderboard-labels__rank {
+  margin-inline-end: 12px;
+}
+
+/* .community-leaderboard-labels__community {} */
+
+.community-leaderboard-labels__exp {
+  margin-inline-start: auto;
+}
+
+.community-leaderboard-labels__users {
+  margin-inline-start: 12px;
+}
+
+.community-leaderboard__list {
+  column-count: 2;
+  gap: 64px;
+  list-style: none;
+  margin: unset;
+  padding: unset;
+}
+
+.community-leaderboard__community {
+  align-items: center;
+  display: flex;
+  padding: 12px;
+}
+
+.community-leaderboard__community:nth-of-type(odd) {
+  background-color: gray;
+}
+
+.community-leaderboard__rank {
+  margin-inline-end: 12px;
+  width: 32px;
+}
+
+.community-logo__container {
+  border-radius: 12px;
+  height: 72px;
+  margin-inline-end: 12px;
+  width: 72px;
+}
+
+.community-logo {
+  border-radius: inherit;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.community-logo--fallback {
+  align-items: center;
+  background-color: white;
+  color: black;
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.community-leaderboard__exp {
+  margin-inline-end: 12px;
+  margin-inline-start: auto;
+}
